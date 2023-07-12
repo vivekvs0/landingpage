@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(10, 10, 10);
+    background-color:rgb(254, 247, 237);
+}
+.container{
+    max-width:90rem;
+    margin: 2rem auto;
+    padding: 0px 2rem; 
+}
+.header{
+    padding: 2rem;
+    margin: 1rem 0px;
+    text-align: center;
+
+}
+.header .tittle{
+ margin-top: 1rem;
+}
+.tribute{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;
+    margin: 0px auto;
+    background-color:rgb(233, 213, 213);
+    color: rgb(64, 60, 60);
+    text-transform: uppercase;
+    align-items: center;
+    font-weight: bold;
+    padding: 0px 0px 0px 1rem;
+}
+.tribute .blockquote{
+  
+
+    text-align: center;
+    font: size 4rem;
+
+}
+.tribute img{
+    max-width: 100%;
+}
+.bio{
+   
+    margin:2rem auto;
+    padding: 0px 0.5rem;
+    text-align: center;
+    max-width: 40rem;
+}
+.bio .h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+.bio .p1{
+ 
+    font-size: 1.2rem;
+    line-height: 1.4;
+
+}
+.bio .p2{
+ 
+    font-size: 1.2rem;
+    line-height: 1.4;
+
+}
+.bio .hr{
+    margin-top: 2rem;
+}
